@@ -1,0 +1,156 @@
+/* src/styles/ClientList.css */
+
+/* Contenedor global de la tabla (el "card" que la envuelve) */
+.client-card {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 1rem;
+  }
+  
+  /* Quitamos bordes y separaciones de la tabla por defecto */
+  .client-table {
+    border-collapse: separate;
+    border-spacing: 0 1rem; /* deja espacio vertical entre filas */
+    width: 100%;
+  }
+  
+  /* Encabezado de la tabla */
+  .client-table thead tr {
+    background: #F9FAFB;
+    font-weight: 500;
+  }
+  
+  .client-table thead th {
+    padding: 12px 24px;
+    text-align: left;
+    color: #555555;
+  }
+  
+  /* Estilo tipo “card” para cada fila */
+  .client-table tbody tr {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  /* Aumentamos el espaciado dentro de cada celda */
+  .client-table tbody td {
+    padding: 16px 24px;
+    vertical-align: middle;
+  }
+  
+  /* Efecto hover para que parezca “card” realzando */
+  .client-table tbody tr:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  
+  /* Ajustes de texto dentro de las celdas: 
+     Opcional si deseas cambiar la tipografía */
+  .client-table tbody td {
+    font-size: 0.95rem;
+    color: #333333;
+  }
+
+  /* Barra de búsqueda */
+.search-container {
+    width: 98%;
+    margin: 1% auto;
+    position: relative;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: .9rem;
+    border-radius: 50px;
+    border: 1px solid #E5E7EB;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-input:focus {
+    border-color: #f6c71e;
+    box-shadow: 0px 2px 6px rgba(108, 99, 255, 0.2);
+  }
+/* Estilo para el botón de "View Detail" */
+.btn-view-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 112px;
+    height: 30px;
+    background: #CFFCFE;
+    border-radius: 360px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0D7991;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Efecto hover */
+  .btn-view-detail:hover {
+    background: #B0F0F2;
+    color: #0A5F73;
+  }
+  
+  /* Efecto activo */
+  .btn-view-detail:active {
+    background: #A0E5E8;
+    color: #084D5E;
+  }
+  
+
+  /* Estilo para el botón de "Resend Email" */
+.btn-resend-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 120px;
+    height: 30px;
+    background: #D4F8C9; /* Verde suave */
+    border-radius: 360px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #267A10; /* Verde más oscuro para el texto */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Efecto hover */
+  .btn-resend-email:hover {
+    background: #BDEEB0; /* Verde más intenso */
+    color: #1E5F0B;
+  }
+  
+  /* Efecto activo */
+  .btn-resend-email:active {
+    background: #A5E29B;
+    color: #174A08;
+  }
+  

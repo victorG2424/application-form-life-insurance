@@ -1,0 +1,155 @@
+/* Fondo gris claro en toda la página */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F2F4F7; /* Gris claro */
+  }
+  
+  /* Card del login */
+  .login-card {
+    width: 506px;
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 250px rgba(16, 24, 40, 0.05);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  /* Inputs redondeados */
+  .login-input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Botón de Sign In */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6ECF37; /* Verde */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #5AB728;
+  }
+  
+  /* "Remember me" y "Forgot Password" */
+  .login-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .login-options a {
+    color: #7F56D9; /* Color morado */
+    text-decoration: none;
+  }
+  
+  .login-options a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botones de login con otras plataformas */
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .social-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .google-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .apple-button {
+    background-color: black;
+    color: white;
+  }
+  
+  .facebook-button {
+    background-color: #1877F2;
+    color: white;
+  }
+  
+  .SignIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 120px;
+    height: 30px;
+    background: #D4F8C9; /* Verde suave */
+    border-radius: 360px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #267A10; /* Verde más oscuro para el texto */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Efecto hover */
+  .SignIn:hover {
+    background: #BDEEB0; /* Verde más intenso */
+    color: #1E5F0B;
+  }
+  
+  /* Efecto activo */
+  .SignIn:active {
+    background: #A5E29B;
+    color: #174A08;
+  }
+
+  .form-control{
+    border: 1px solid #EAECF0;
+    border-radius: 360px;
+    font-size: .9rem;
+  }
+  
+  .form-control:focus{
+    border-color: #f6c71e;
+    box-shadow: 0 0 5px rgba(246, 199, 30, 0.75)
+  }
+
+  Form{
+    width: 90%;
+  }
+
+  .logoLogin{
+    width: 93%;
+  }

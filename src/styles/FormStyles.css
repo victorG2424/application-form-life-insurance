@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    place-items: initial !important;
+    background-color: #F2F4F7 !important;
+    display: block !important;
+    font-family: 'Poppins';
+  }
+  .main-page {
+    box-sizing: border-box;
+  }
+  /* Centrar solo el texto del título si lo deseas */
+.title-top {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 0; 
+  }
+/* Estilos generales del formulario */
+.form-container {
+    width: 100%;
+    max-width: 93%; /* Reduce 5% a cada lado */
+    margin: 0 auto; /* Centra el formulario */
+    padding: 20px;
+    margin-bottom: 3rem;
+
+gap: 24px;
+
+background: #FFFFFF;
+border-radius: 24px;
+
+
+
+  }
+  .form-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #101828;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.form-control{
+  border: 1px solid #EAECF0;
+  border-radius: 360px;
+  font-size: .9rem;
+}
+
+.form-control:focus{
+  border-color: #f6c71e;
+  box-shadow: 0 0 5px rgba(246, 199, 30, 0.75)
+}
+
+.text-danger {
+  font-size: .7rem;
+}
+
+.nav-tabs, .nav-link, .active, .form-select{
+  font-size: .9rem;
+}
+
+.nav-tabs .nav-link.active{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 6px;
+
+/* Medium Purple/400 */
+background: #414042;
+border-radius: 360px;
+color: #fff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.nav-tabs .nav-link{
+  background: #F2F4F7;
+  border-radius: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 6px;
+  color: #000;
+}
+.nav-item{
+  margin-left: 1%;
+}
+
+.nav-tabs{
+  width: 100%;
+  border-bottom: 0px;
+}
+
+.logo{
+  width: 27%;
+}
+
+.custom-navbar{
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 24px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+  width: 80% ; 
+  max-width: 1392px ;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.counterField{
+  background-color: #f6c71e;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 6px;
+}
+
+.counterFieldCheck{
+  background-color: #28a745 ;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 6px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #f6c71e
+}
+
+.btn-next-tab {
+  padding: 6px 14px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 112px;
+  height: 30px;
+  background: #CFFCFE;
+  border-radius: 360px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #0D7991;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.btn-next-tab:hover {
+  background: #B0F0F2;
+  color: #0A5F73;
+}
+
+/* Efecto activo */
+.btn-next-tab:active {
+  background: #A0E5E8;
+  color: #084D5E;
+}

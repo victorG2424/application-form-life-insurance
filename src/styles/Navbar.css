@@ -1,0 +1,60 @@
+/* ✅ Animación del menú en móviles */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Inicialmente oculto */
+    width: 75%;
+    height: 100%;
+    background: white;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.4s ease-in-out;
+    z-index: 1050;
+  }
+  
+  /* Cuando el menú está abierto */
+  .mobile-menu.open {
+    right: 0;
+  }
+  
+  /* Cuando el menú se cierra */
+  .mobile-menu.close {
+    right: -100%;
+  }
+  
+  /* ✅ Estilo del contenido del menú */
+  .mobile-menu-content {
+    padding: 20px;
+  }
+  
+  /* Botón de cerrar */
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  
+  /* Media query para ajustar en móviles */
+  @media (max-width: 768px) {
+    .custom-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 15px;
+      width: 100%;
+    }
+  
+    .custom-navbar .logo {
+      height: 35px;
+      width: 100%;
+    }
+  
+    .menu-button {
+      font-size: 20px;
+      padding: 5px 12px;
+    }
+  }
+  
